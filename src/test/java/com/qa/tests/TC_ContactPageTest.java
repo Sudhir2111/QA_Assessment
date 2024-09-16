@@ -32,10 +32,11 @@ public class TC_ContactPageTest extends BaseClass {
 
 	@DataProvider
 	public Object[][] getTestData() {
-		return new Object[][] { { "Sahil", "Juneja", "sj12@gmail.com", "NA" },
-				{ "Rahul", "Garg", "rj12234@gmail.com", "NA" }, { "Rohit", "Bhatia", "rohitbh123@gmail.com", "NA" },
-				{ "Varun", "Chawla", "vc#@gmail.com", "NA" }, { "Sudhir", "Dahiya", "sudhird99@gmail", "NA" },
-				{ "Vijay", "Garg", "vj1!2@gmail.com", "NA" } };
+		return new Object[][] { { "Sudhir", "Dahiya", "sd12@gmail.com", "NA" },
+				{ "Deepu", "Tiwari", "dt12234@gmail.com", "NA" }, { "Sahil", "Juneja", "sahil123@gmail.com", "NA" },
+				{ "Varun", "Chawla", "vcgmail.com", "NA" }, { "Sudhir", "Dahiya", "sudhird99@gmail", "NA" },
+				{ "Vishal", "Kumar", "vk1!2@gmail.com", "NA" }, 
+				{"Mohit", "Kumar", "","NA"}};
 	}
 
 }
